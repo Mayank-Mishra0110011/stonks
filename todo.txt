@@ -1,0 +1,22 @@
+=> Write test case for opening && removing panels in every order possible with actual stonks this time {
+  pass if:
+    closed window = expected closed stonk window,
+    opened window = expected opened stonk window,
+    open panel count = panelData live object count
+}
+=> Plot candles and area
+=> Save/Load state from json
+
+=> Add indicators like tickers (check for data before loading) and add plotting for indicators
+=> HTTP request for data will only be made again, if the window is refreshed or when 
+intervals change AND are beyond what the data set has at that given instance
+=> Preserve window data and ONLY redraw it on resize (no http requests!)
+=> Re-bind dropdown callbacks on resize
+=> Make each window expandable {
+  keep things easier and expand to max width, no drag functionality (might consider adding later)
+}
+
+Can scrape live data from:
+GET https://www.google.com/async/finance_wholepage_price_updates?ei=xDhhX4-gK8rhz7sPv6-JmA0&yv=3&async=mids:/m/07zmbvf,currencies:,_fmt:jspb
+(AAPL)
+

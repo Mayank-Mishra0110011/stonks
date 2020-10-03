@@ -1,0 +1,69 @@
+{
+  "windows": {
+    "count": "3",
+    "win1": {
+      "expanded": false,
+      "tickers": [
+        { "name": "TSLA", "color": "#e09c00", "otherinfo": "addHere" },
+        { "name": "AAPL", "color": "#ffffff", "otherinfo": "addHere" }
+      ],
+      "indicators": [
+        { "name": "MA", "color": "#7289da", "otherinfo": "addHere" }
+      ],
+      "dateRange": { "from": "Apr 07, 2019", "to": "Mar 22, 2020" },
+      "interval": "3M",
+      "legendHidden": false
+    },
+    "win2": {
+      "expanded": false,
+      "tickers": [
+        { "name": "TSLA", "color": "#e09c00", "otherinfo": "addHere" },
+        { "name": "AAPL", "color": "#ffffff", "otherinfo": "addHere" }
+      ],
+      "indicators": [
+        { "name": "MA", "color": "#7289da", "otherinfo": "addHere" }
+      ],
+      "dateRange": { "from": "Apr 07, 2019", "to": "Mar 22, 2020" },
+      "interval": "3M",
+      "legendHidden": false
+    },
+    "win3": {
+      "expanded": false,
+      "tickers": [
+        { "name": "TSLA", "color": "#e09c00", "otherinfo": "addHere" },
+        { "name": "AAPL", "color": "#ffffff", "otherinfo": "addHere" }
+      ],
+      "indicators": [
+        { "name": "MA", "color": "#7289da", "otherinfo": "addHere" }
+      ],
+      "dateRange": { "from": "Apr 07, 2019", "to": "Mar 22, 2020" },
+      "interval": "3M",
+      "legendHidden": false
+    },
+    "win4": {
+      "expanded": false,
+      "tickers": [
+        { "name": "TSLA", "color": "#e09c00", "otherinfo": "addHere" },
+        { "name": "AAPL", "color": "#ffffff", "otherinfo": "addHere" }
+      ],
+      "indicators": [
+        { "name": "MA", "color": "#7289da", "otherinfo": "addHere" }
+      ],
+      "dateRange": { "from": "Apr 07, 2019", "to": "Mar 22, 2020" },
+      "interval": "3M",
+      "legendHidden": false
+    },
+    "watchlistWin": {
+      "expanded": false,
+      "tickers": ["TSLA", "AAPL"]
+    },
+    "orderWin": {
+      "expanded": false,
+      "tickers": ["TSLA", "AAPL"]
+    },
+    "positionWin": {
+      "expanded": false,
+      "tickers": ["TSLA", "AAPL"]
+    }
+  }
+}
